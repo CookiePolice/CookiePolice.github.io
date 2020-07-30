@@ -5,7 +5,7 @@
 	<title>module2-solution</title>
 	<meta name='viewport' content='width=device-width, initial-scale=1'>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital@1&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="module2-solution/css/style.css">
 </head>
 <body>
 	<h1>Our menu</h1>
