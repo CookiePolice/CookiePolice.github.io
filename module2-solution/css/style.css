@@ -5,46 +5,42 @@
 body{
 	background: url('https://wallpaperplay.com/walls/full/e/2/c/378514.jpg');
 	background-repeat: no-repeat;
+	
 }
-.menu h1{
-	font-size: 24px;
-	font-family: cursive;
-	color:#848ccf;
-	text-align: center;
-}
+
 
 h1 {
 	font-size: 35px;
-	font-family: Georgia serif;
+	font-family: 'Montserrat Alternates', sans-serif;
 	text-align: center;
-	color: black;
+	color:#848ccf;
 	margin-bottom: 30px;
 }
 
 p {
 	display: block;
 	padding: 15px 5px 0px 5px;
-	font-family: Georgia sans-serif;
+	font-family: 'Montserrat Alternates', sans-serif;
 	font-size: 16px;
 	position: relative;
 }
 .menu{
 	width: 100%;
-	//background-color: cornflowerblue;
 	height: 50px;
 	
 }
 
 .main-container {
-	width: 100%;		
+	width: 100%;
+	padding: 10px;
 }
 
 .container {
 	background-color: azure;
-   	border: 1px solid #848ccf;
+   	border: 1px solid black;
    	margin-top: 20px; 
    	margin-right: 20px; 
-   	padding: 3px;
+   	padding: 10px;
    	text-align: justify;
    	position: relative;
 	overflow: none;
@@ -54,10 +50,10 @@ span {
 	height: 35px;
 	font-size: 20px;
 	width: 150px;
-	border: 1px solid #848ccf;
+	font-family: 'Montserrat Alternates', sans-serif;
+	border: 1px solid black;
 	border-top: 0px;
 	border-right: 0px;
-	font-weight: bold;
 	text-align: center;
 	float: right; top :0; right: 0; margin: 0;
 	position: absolute;
@@ -78,29 +74,29 @@ span {
 
 @media (min-width: 992px) {
  
-  .col-lg-4 {
+  .col_1,.col_2,.col_3 {
     width: 33.33%;
     float: left;
 	}
 }
 
-/* Tablet PC view */
+
 @media (min-width: 768px) and (max-width: 991px) {
- .col-md-6,.col-md-12 {
+ .col_1,.col_2,.col_3 {
     float: left;
   }
-  .col-md-6 {
+   .col_1,.col_2 {
     width: 50%;
   }
-  .col-md-12 {
+  .col_3 {
     width: 100%;
   }
 	
 }
-/* Cell phone view */
+
 @media (max-width: 767px){
 	
-  .col-sx-12 {
+   .col_1,.col_2,.col_3 {
   	float: left;
     width: 100%;
   }
